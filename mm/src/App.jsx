@@ -1,7 +1,8 @@
 import React from 'react';
 import RootRouter from '@/router/index';
+import '@/css/global.css';
 function App(){
-    return <div>
+    return <div className='App'>
         <RootRouter/>
     </div>
     

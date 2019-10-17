@@ -1,0 +1,96 @@
+.search {
+    height: 56px;
+    width: 100%;
+    background: #2873FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 15px;
+    h2 {
+        color: #fff;
+    }
+    >div:nth-child(2) {
+        flex: 1;
+        height: 25px;
+        background: #fff;
+        margin: 0 15px;
+    }
+    >div:nth-child(3) {
+        color: #fff;
+    }
+}
+
+.nav {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    background: #2873FF;
+}
+
+nav>div {
+    width: 150px;
+    display: flex;
+}
+
+nav>div>span {
+    text-align: center;
+}
+
+nav>div>span:nth-child(1) {
+    flex: 1;
+    position: relative;
+}
+
+nav>div>span:nth-child(2) {
+    width: 50px;
+}
+
+nav>ul {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li {
+    flex: 1;
+    text-align: center;
+}
+
+nav>ul>li.active {
+    color: black;
+    font-weight: bold;
+}
+
+.shade {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, .3);
+}
+
+.shade-content {
+    position: absolute;
+    top: 150%;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background: #fff;
+}
+
+#span {
+    display: inline-block;
+}
+
+.actived {
+    transform: rotate(180deg);
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
